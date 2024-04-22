@@ -23,6 +23,7 @@ class Welcome extends CI_Controller
      */
     public function index()
     {
+        // MENAMBAH KOMENTAR BARU
         $blade = new Blade(VIEWPATH, APPPATH . 'cache');
         echo $blade->make('form', [])->render();
     }
